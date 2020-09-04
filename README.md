@@ -30,11 +30,13 @@ makeVector <- function(x = numeric()) {
              getmean = getmean)
              
 }
+
 ...
 
 Ddepois, atribui a média da função anterior e devolve, caso o cálculo da média já tenha sido feita.
 
 ...
+
 cachemean <- function(x, ...) {
 
         m <- x$getmean()
@@ -56,7 +58,9 @@ cachemean <- function(x, ...) {
         
         m
         
-}...
+}
+...
+
 
 O exercício, editado em outro arquivo, determina a matriz inversa de uma função...semalhante a esse código
 a matriz inserida deve ser devolvida o seu inverso com a função solve(matrix) e, caso tenha sido feito o
