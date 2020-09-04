@@ -4,7 +4,7 @@
 
 #Este algoritmo cria uma função "numeric" como exemplo
 
-makeVector <- function(x = numeric()) {
+{makeVector <- function(x = numeric()) {
 
         m <- NULL
         
@@ -29,10 +29,11 @@ makeVector <- function(x = numeric()) {
              getmean = getmean)
              
 }
-
+}
 
 Ddepois, atribui a média da função anterior e devolve, caso o cálculo da média já tenha sido feita.
 
+{
 cachemean <- function(x, ...) {
 
         m <- x$getmean()
@@ -54,6 +55,7 @@ cachemean <- function(x, ...) {
         
         m
         
+}
 }
 
 O exercício, editado em outro arquivo, determina a matriz inversa de uma função...semalhante a esse código
