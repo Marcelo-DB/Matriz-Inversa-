@@ -1,4 +1,6 @@
-##função set(matrix) do exercício do Coursera
+#Esta função, usei como modelo o que foi dado no esercício do 
+#Coursera. Alterei alguns parâmetros para que seja feita a funçao 
+#corretamente
 makeCacheMatrix <- function(x = matrix()) {
   
   m <- NULL
