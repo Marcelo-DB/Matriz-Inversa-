@@ -2,7 +2,9 @@
 
 ...
 #Este código em R é para atividades de programação do Coursera.
+
 #Este algoritmo cria uma função "numeric" como exemplo
+
 makeVector <- function(x = numeric()) {
         m <- NULL
         set <- function(y) {
@@ -17,7 +19,9 @@ makeVector <- function(x = numeric()) {
              getmean = getmean)
 }
 ...
+
 Ddepois, atribui a média da função anterior e devolve, caso o cálculo da média já tenha sido feita.
+
 ...
 cachemean <- function(x, ...) {
         m <- x$getmean()
